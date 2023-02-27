@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curriculum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="flex">
+        <img src="foto.jpg" alt="Foto carnet">
+        <div>
+            <h1>Maria Fernanda Diaz</h1>
+            <p>Linkedin: <a href="https://www.linkedin.com/in/mar%C3%ADa-fernanda-diaz-04a610212/">@Fernanda</a></p>
+        </div>
+    </header>
+    <section class="flex">
+        <article>
+            <h2>Información Profesional</h2>
+            <ul>
+                <li>
+                    <h4>Temporada Escolar 2022 y 2021 <i>Libreria SBS</i><br></h4>                    </h3>
+                       <p id="demo" style="display:none;">Atención en local, atención al cliente via telefonica y por whatsapp. Ayudante en tareas administrativas del deposito.</p>
+                      <button type="button" onclick="document.getElementById('demo').style.display='block'">Tareas</button> 
+                    
+                    <h4>Temporada Escolar 2019 y 2020 <i>Feria Escolar de Libro</i><br></h4>
+                        <p id="demo1" style="display:none;">Atención al publico, manejo y cierre de caja</p>
+                       <button type="button" onclick="document.getElementById('demo1').style.display='block'">Tareas</button> 
+                    
+                    <h4>Emprendimientos Personales<br></h4>
+                        <p id="demo2" style="display:none;">Manejo de las finanzas y gestion de cobros y pagos</p>
+                       <button type="button" onclick="document.getElementById('demo2').style.display='block'">Tareas</button> 
+                    
+                </li>
+            </ul>
+        </article>
+        <aside>
+            <h2>Información Académica</h2>
+            <ul>
+                <li>
+                    <p>Tecnicatura en procesos productivos en <i>Quimicos Argentinos N°4-131</i><br>
+                       <b>Año de egreso</b>
+                       <time datetime="2012-11">Año 2012</time>
+                    </p>
+
+                    <p>Tecnicatura en Gestión de Recursos Hídricos en <i>IES N°9-023</i><br>
+                        <b>Año de egreso</b>
+                        <time datetime="2017-11">Año 2017</time>
+                    </p>
+
+                    <p>Tecnicatura en Computación y Redes en <i>IES Manuel Belgrano</i><br>
+                        <b>Desde</b>
+                        <time datetime="2022-02">Año 2022</time>
+                        <b>Hasta:</b>
+                        <time>Actualmente</time>
+                    </p>
+                </li>
+            </ul>
+            <hr>
+            <h2>Conocimientos</h2>
+            <div>
+                <li>
+                <p>HTML y CSS</p>
+                <progress value="40" max="100"></progress>
+                <p>Photoshop</p>
+                <progress value="55" max="100"></progress>
+                <p>Javascript</p>
+                <progress value="10" max="100"></progress>
+                </li>
+            </div>
+        </aside>
+    </section>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+    style="background-color:#5E81AC;width:120px;height:20px;padding:40px;" class="flex">Por ver mi Perfil</div>
+    <script src="aplicación.js"></script>
+</body>
+</html>
